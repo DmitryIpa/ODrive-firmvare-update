@@ -6,10 +6,10 @@ Flashing with an STLink. This procedure is only necessary for ODrive v3.4 or ear
 
 # 2. Download the latest firmware release form here[https://github.com/odriverobotics/ODrive/releases]. You will need the .elf file. Make sure you select the file that matches your board version.
 
-# 3. Select DFU Mode on ODrive:
+# 3. Select DFU Mode on ODrive board.
 
 # 4. Wire up the ODrive and STLink/v2 programmer as shown in this picture and power up the ODrive.
-![Image alt](https://github.com/DmitryIpa/Odrive_control/blob/main/odrive.png)
+![Image alt](https://github.com/DmitryIpa/ODrive-firmvare-update/blob/main/stlink-wiring.jpg)
 
 # 5. Run the following command (replace ```ODriveFirmware_v3.4-24V.elf``` with the name of your firmware file):
 ```
